@@ -1,0 +1,39 @@
+.upper-header{
+    display: flex;
+    align-items:baseline ;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: #131921;
+    color: white;
+    padding: 0.5rem;
+}
+.upper-header img{
+    position: relative;
+    top:1rem
+    
+}
+.burger{
+    width: 10px;
+    height: 1px;
+    background-color: white;
+}
+.navbar{
+    height: 2.5rem;
+
+}
+.nav-link{
+    font-size: 1rem;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 50rem;
+    height: 2.42rem;
+    border: none;
+    
+}

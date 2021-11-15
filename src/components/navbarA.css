@@ -1,0 +1,18 @@
+.nav-link{
+    color:white;
+}
+.offcanvas-logo{
+    background-color: black;
+    width: 10rem;
+    position: absolute;
+    top:2rem;
+} 
+ .offcanvas-body{
+    background-color: black;
+    color: white;
+}
+.offcanvas-links{
+    position: absolute;
+    top:6rem;
+        
+}

@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 20rem;
+    background-color: #232f3e;
+    color: white;
+   
+}
+.footer .menu a {
+    text-decoration: none;
+    color: white;
+}
+.lower-footer{
+ color: white;
+ height: 4rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #131a22;
+}
+.lower-footer a{
+    text-decoration: none;
+    color:white;
+    margin: 1rem;
+}
+.lower-footer a:hover,.footer .menu a:hover{
+    color:grey;
+}
