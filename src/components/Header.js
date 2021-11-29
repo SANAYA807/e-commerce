@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './header.css';
 import logo from './images/logo.png'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCart';
 import NavbarA from "./NavbarA";
+import addToCart from '../reducers/addProduct.js';
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+
+
 
 
 export const Header = () => {
+    // const cart = useSelector((state) => state.addToCart);
+
+    // const [cartValue, setCartValue] = useState(0);
+
+
+
+    // useEffect(() => {
+    //     let count = 0;
+    //     cart.map((prod) => count= count+prod.quantity)
+    //     setCartValue(count)
+    // }, [cart, cartValue])
+
+
     return (
-        <div>
+        <div className="header">
             <div className="upper-header">
                 <img src={logo} alt="logo" style={{ height: "3rem" }} />
                 <div style={{ display: "flex" }}><p>select your address</p>
@@ -23,7 +41,7 @@ export const Header = () => {
                     </div>
                 </div>
                 <p>Returns and Orders</p>
-                <ShoppingCartSharpIcon />
+                <Link to="/cart" style={{ textDecoration: "none", color: "white" }}><ShoppingCartSharpIcon /><span>{}</span></Link>
             </div>
             <NavbarA />
         </div>

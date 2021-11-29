@@ -2,13 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .card{
-    width:15rem;
+    width:100%;
     border: none;
+    border-radius: 0;
+    margin-bottom: 2rem;
+   
+}
+.info{
+   text-decoration: none;
+   color: black;
 }
 .product-image{
     height: 14rem;
     width: 10rem;
     margin: auto;
-}
+    margin-bottom: 10px;
+} 

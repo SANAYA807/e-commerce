@@ -2,11 +2,19 @@
     display: flex;
     align-items:baseline ;
     justify-content: space-evenly;
-    height: auto;
+    /* height: 5rem; */
+    width: 100%;
     background-color: #131921;
     color: white;
     padding: 0.5rem;
+    
 }
+/* .header{
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+} */
+
 .upper-header img{
     position: relative;
     top:1rem
@@ -19,6 +27,7 @@
 }
 .navbar{
     height: 2.5rem;
+   
 
 }
 .nav-link{
